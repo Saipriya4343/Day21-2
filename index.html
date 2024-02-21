@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top{
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: repeat(6,100px);
+            grid-template-rows: 200px 200px 200px;
+            justify-content: center;
+            gap: 10px;
+            background-color: aqua; width: 800px;
+
+        }
+        .bottom1{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            background-color: coral;
+            grid-column-start: 1;
+            grid-column-end: 6;
+
+        }
+       
+        .bottom2{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            background-color: coral;
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+        }
+        .bottom3{
+            background-color: coral;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+        .bottom4{
+            background-color: coral;
+            grid-column-start: 4;
+            grid-column-end: 6;
+
+        }
+        .bottom5{
+            background-color: coral;
+            grid-column-start: 2;
+            grid-column-end: 6;
+
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="bottom1">header</div>
+        <div class="bottom2">menu</div>
+        <div class="bottom3">main</div>
+        <div class="bottom4">right</div>
+        <div class="bottom5">footer</div>
+        
+        
+
+
+
+    </div>
+    
+</body>
+</html>
